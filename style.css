@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* this is main container */
+.container {
+  padding: 0 120px 0 120px;
+  max-width: 130rem;
+}
+/* navbar css */
+.navbar {
+  margin-top: 69px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* padding: 0 120px 0 120px; */
+}
+/* navbar list */
+.navbar ol {
+  list-style: none;
+  display: flex;
+  gap: 38px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.navbar ol li a {
+  text-decoration: none;
+  color: #000;
+}
+.navbar ol li a:hover {
+  
+  color: #5955b3;
+}
+/* navbar contact us button */
+.navbar button {
+  width: 150px;
+  height: 54px;
+  text-align: center;
+  background-color: #5955b3;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.flexgrow {
+  flex-grow: 1;
+  padding-left: 62px;
+}
+/* Hero or landing page */
+.landingpage {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.landingpage div h1 {
+  font-size: 64px;
+  font-family: "Poppins", sans-serif;
+  color: #3c2f60;
+  line-height: 75px;
+  font-weight: 600;
+}
+.landingpage div span {
+  color: #5955b3;
+}
+
+.landingpage div p {
+  /* font-size: 64px; */
+  font-family: "Poppins", sans-serif;
+  margin: 28px 0;
+  color: #828282;
+  font-weight: 400;
+}
+.landingpage div button {
+  /* font-size: 64px; */
+  font-family: "Poppins", sans-serif;
+  margin: 72px 0;
+  width: 185px;
+  padding: 14px 28px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #5955b3;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
